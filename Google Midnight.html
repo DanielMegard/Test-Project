@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> 
+	<title>Google Stardust Edition</title>
+	<link rel="shortcut icon" href="http://www.iconj.com/ico/h/4/h4gyi4iq1h.ico" type="image/x-icon" />
+   <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<style>
+	html{
+			height:100%;
+	}
+	body{
+			text-align:center;
+			background-image:url("http://i57.tinypic.com/5laoi9.png");
+			height:100%;
+			margin:0;
+			padding:0;
+	}
+	#Logo{
+			Margin-top:200px;
+	}
+	/*SEARCH BAR*/
+	input{
+			width:60%;
+			min-width:600px;
+			box-shadow:none;
+			padding:none;
+			margin-top:40px;
+			 border: 5px solid white; 
+			-webkit-box-shadow: 
+			inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+			-moz-box-shadow: 
+			inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+			box-shadow: 
+			inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+			padding: 15px;
+			background: rgba(255,255,255,0.5);
+			font-family:Montserrat;
+			color:#fff;
+			font-size: 1.5em;
+			text-shadow: 0 0 2px #474747;
+			transition: all 0.2s;
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-o-transition: all 0.2s;
+	}
+	input:hover{
+			box-shadow: 0 0 20px grey;
+			transition: all 0.2s;
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-o-transition: all 0.2s;
+	}
+	input:focus{
+	box-shadow:0 0 35px grey;
+	}
+	
+	/*Footer*/
+	#fbar{
+			border-left:none;
+			border-right:none;
+			position:absolute;
+			bottom:0;
+			width:100%;
+			height:40px;   /* Height of the footer */
+			background-color:grey;
+			opacity:.3;
+	}
+	#ftext{
+			color: #c7c7c7;
+			font-family:Arial, sans-serif;
+			font-size: .9em;
+			margin-bottom:10px;
+			position:absolute;
+			bottom:0;
+			width:100%;
+	}
+	a{
+			-webkit-text-decoration: none;
+			-ms-text-decoration: none;
+			-moz-text-decoration: none;
+			-o-text-decoration: none;
+			text-decoration: none;
+	}
+	a:hover{
+			-webkit-text-decoration: underline;
+			-ms-text-decoration: underline;
+			-moz-text-decoration: underline;
+			-o-text-decoration: underline;
+			text-decoration: underline;
+			color:inherit;
+	}
+	/*BUTTONS*/
+	.button{
+			color:#333;
+			height:60px;
+			width:200px;
+			background: -webkit-linear-gradient(#4D90FE, #4787ED); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(#4D90FE, #4787ED); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(#4D90FE, #4787ED); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(#4D90FE,#4787ED); /* Standard syntax */
+			line-height:60px;
+			font-family: Montserrat;
+			font-size: 1.2em;
+			color:#fff;
+			border-radius: 10px;
+			display:inline-block;
+			margin:20px;
+			margin-top:30px;
+			transition: all 0.2;
+	}
+	.button:hover{
+			-ms-transform: translate(-1px,-1px); /* IE 9 */
+			-webkit-transform: translate(-1px,-1px); /* Chrome, Safari, Opera */
+			transform: translate(-1px,-1px);
+			background: linear-gradient(#5294ff, #4d8bec);
+			box-shadow: 2px 2px 8px #2a62bb;
+			font-size:20px;
+	}
+	.button:active{
+			box-shadow:none;
+			background:linear-gradient(#3d73cb, #3f79d5);
+			-ms-transform: translate(0,0); /* IE 9 */
+			-webkit-transform: translate(0,0); /* Chrome, Safari, Opera */
+			transform: translate(0,0);
+	}
+	#b-wrap{
+			text-align: center;
+	}
+	
+	</style>
+</head>
+
+<body>
+
+	<!-- LOGO -->
+	<div class="wrap">
+	<img src="https://www.google.com/images/srpr/logo11w.png" id="Logo"></img>
+	</div>
+	
+	<!-- SEARCH BAR -->
+<form method="get" action="https://www.google.com/search">
+<input type="text" name="g" size="31" value="">
+</form>
+
+<!--BUTTONS -->
+<div id="b-wrap">
+<div class="button">Google Search</div>
+<div class="button">I'm Feeling Lucky</div>
+</div>
+
+	<!-- FOOTER -->
+	<div id="ftext">
+	<span style="float:left;">
+	&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbspAdvertisement&nbsp;&nbsp;&nbsp; 
+	Bussines &nbsp;&nbsp;&nbsp; 
+	About
+	</span>
+	<span>Google Stardust Edition <em>By <span style="color: tomato;">Daniel Megard</em></span> 2014</span>
+	<span style="float:right;">
+	<span style="color: #b14436">Updated</span> Privacy & Terms&nbsp;&nbsp;&nbsp; Settings&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+	</span>
+	</div>
+	
+	<div id="fbar">	</div>
+	
+</body>
+</html>
